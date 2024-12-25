@@ -1,4 +1,5 @@
-#/
+#!/usr/bin/env python3
+
 import mysql.connector
 
 
@@ -15,7 +16,8 @@ INSERT INTO Booking VALUES
 INSERT INTO Review VALUES
     (1, 1, 1, 4, 'Had a nice time at this property', '2024-10-28 18:00'),
     (2, 2, 1, 3, 'Not so bad', '2024-11-10 23:00'),
-    (3, 3, 3, 5, 'Great property I must say', '2024-10-28 18:00'); '''
+    (3, 3, 3, 5, 'Great property I must say', '2024-10-28 18:00'); 
+'''
 
 
 def connect_db():
